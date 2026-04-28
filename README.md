@@ -58,21 +58,15 @@ import cv2
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
 import time
-```
 
-```
 cap = cv2.VideoCapture(0)
 ret, frame = cap.read()
 if ret:
     cv2.imwrite("captured_frame.jpg", frame)
 cap.release()
-```
 
-```
 captured_image = cv2.imread('captured_frame.jpg')
-```
 
-```
 plt.imshow(captured_image[:,:,::-1])
 plt.title('Captured Frame')
 plt.axis('off')
