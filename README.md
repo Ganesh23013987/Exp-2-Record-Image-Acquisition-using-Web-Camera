@@ -49,6 +49,10 @@ Resize the frame and rotate it using OpenCV functions, then display the processe
 ---
 ## Program
 
+
+### i) Write the frame as JPG image
+Captured image is saved as `captured_image.jpg`
+
 ```
 import cv2
 import matplotlib.pyplot as plt
@@ -75,6 +79,12 @@ plt.axis('off')
 plt.show()
 ```
 
+<img width="600" height="488" alt="image" src="https://github.com/user-attachments/assets/5e64f301-7853-49a4-bbd3-252f70765a57" />
+
+
+### ii) Display the video
+Live webcam video is displayed
+
 ```
 cap = cv2.VideoCapture(0)
 
@@ -91,6 +101,11 @@ for i in range(50):
 
 cap.release()
 ```
+<img width="603" height="457" alt="image" src="https://github.com/user-attachments/assets/01aae37e-3c9b-4ffc-889a-175d0f8c5d1e" />
+
+
+### iii) Display the video by resizing the window
+Video is shown in resized resolution (640 × 480)
 
 ```
 cap = cv2.VideoCapture(0)
@@ -110,6 +125,11 @@ for i in range(50):
 cap.release()
 
 ```
+<img width="347" height="470" alt="image" src="https://github.com/user-attachments/assets/643dcab2-5fb0-4b9f-a4db-eed53f8d1cb8" />
+
+
+### iv) Rotate and display the video
+Video is displayed after rotation (90° clockwise)
 
 ```
 cap = cv2.VideoCapture(0)
@@ -128,29 +148,8 @@ for i in range(50):
 
 cap.release()
 ```
-## Output
-
-### i) Write the frame as JPG image
-Captured image is saved as `captured_image.jpg`
-<img width="600" height="488" alt="image" src="https://github.com/user-attachments/assets/5e64f301-7853-49a4-bbd3-252f70765a57" />
-
-
-### ii) Display the video
-Live webcam video is displayed
-<img width="603" height="457" alt="image" src="https://github.com/user-attachments/assets/01aae37e-3c9b-4ffc-889a-175d0f8c5d1e" />
-
-
-### iii) Display the video by resizing the window
-Video is shown in resized resolution (640 × 480)
-<img width="347" height="470" alt="image" src="https://github.com/user-attachments/assets/643dcab2-5fb0-4b9f-a4db-eed53f8d1cb8" />
-
-
-### iv) Rotate and display the video
-Video is displayed after rotation (90° clockwise)
 <img width="358" height="465" alt="image" src="https://github.com/user-attachments/assets/b5964e64-b34e-4579-8d89-52e172db4999" />
 
-
----
 
 ## Result
 
