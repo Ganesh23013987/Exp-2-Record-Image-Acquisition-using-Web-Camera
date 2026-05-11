@@ -1,4 +1,4 @@
-# EXP-2 Image Capture and Video Processing Using OpenCV
+# EXP-2 Record Image Acquisition using Web Camera
 
 ---
 
