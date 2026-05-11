@@ -73,7 +73,8 @@ plt.axis('off')
 plt.show()
 ```
 
-<img width="600" height="488" alt="image" src="https://github.com/user-attachments/assets/5e64f301-7853-49a4-bbd3-252f70765a57" />
+<img width="671" height="539" alt="image" src="https://github.com/user-attachments/assets/46ba5a1f-3060-49e6-a11a-11b3021c2474" />
+
 
 
 ### ii) Display the video
@@ -95,7 +96,8 @@ for i in range(50):
 
 cap.release()
 ```
-<img width="603" height="457" alt="image" src="https://github.com/user-attachments/assets/01aae37e-3c9b-4ffc-889a-175d0f8c5d1e" />
+<img width="681" height="511" alt="image" src="https://github.com/user-attachments/assets/1f169316-ef6b-4db7-88b9-80c8963d64e6" />
+
 
 
 ### iii) Display the video by resizing the window
@@ -119,7 +121,8 @@ for i in range(50):
 cap.release()
 
 ```
-<img width="347" height="470" alt="image" src="https://github.com/user-attachments/assets/643dcab2-5fb0-4b9f-a4db-eed53f8d1cb8" />
+<img width="364" height="516" alt="image" src="https://github.com/user-attachments/assets/e8057fcc-cc27-4bee-85de-7b3daca64dee" />
+
 
 
 ### iv) Rotate and display the video
@@ -142,7 +145,8 @@ for i in range(50):
 
 cap.release()
 ```
-<img width="358" height="465" alt="image" src="https://github.com/user-attachments/assets/b5964e64-b34e-4579-8d89-52e172db4999" />
+<img width="395" height="513" alt="image" src="https://github.com/user-attachments/assets/9b6ed934-5f29-4753-99f2-49eb582a4e38" />
+
 
 
 ## Result
