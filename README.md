@@ -121,7 +121,7 @@ for i in range(50):
 cap.release()
 
 ```
-<img width="364" height="516" alt="image" src="https://github.com/user-attachments/assets/e8057fcc-cc27-4bee-85de-7b3daca64dee" />
+<img width="353" height="501" alt="image" src="https://github.com/user-attachments/assets/d169a3dd-7d50-47d8-87e6-55cd4445bdb3" />
 
 
 
